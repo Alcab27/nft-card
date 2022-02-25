@@ -1,5 +1,17 @@
+:root{
+  --Soft-blue: #8bacda;
+  --Cyan: #00fff7;
+  --Very-dark-blue: #0d192b;
+  --Very-dark-blue-card: #14253d;
+  --Very-dark-blue-line: #2f415b;
+  --White: #ffffff;
+}
 *{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+html{
+  font-size: 62.5%;
+  font-family: 'Outfit', sans-serif;
 }
