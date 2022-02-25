@@ -15,3 +15,66 @@ html{
   font-size: 62.5%;
   font-family: 'Outfit', sans-serif;
 }
+.principal-container{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--Very-dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-container{
+  width: 300px;
+  height: 85%;
+  background-color: var(--Very-dark-blue-card);
+  border-radius:12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+.card-image img{
+  width: 250px;
+  border-radius: 8px;
+  /* border: 1px solid var(--Very-dark-blue-line); */
+  margin-bottom: 14px;
+}
+.card-info{
+  width: 250px;
+  height: auto;
+}
+.card-info p:nth-child(1){
+  font-size: 2.1rem;
+  color: var(--White);
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+.card-info p:nth-child(2){
+  font-size: 1.5rem;
+  color: var(--Soft-blue);
+  font-weight: 300;
+}
+.value-date{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+.value-date div{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.value-date div:nth-child(1) p{
+  color: var(--Cyan);
+  font-weight: 600;
+}
+.value-date div:nth-child(2){
+  justify-content: flex-end;
+}
+#info{
+  margin-left: 8px;
+}
+.creator-info img{
+  width: 50px;
+}
