@@ -75,6 +75,25 @@ html{
 #info{
   margin-left: 8px;
 }
+.creator-info{
+  border-top: solid 1px var(--Very-dark-blue-line);
+  width: 250px;
+  padding-top: 12px;
+  display: flex;
+  align-items: center;
+}
+.creator-info p{
+  margin-left: 12px;
+  font-size: 1.5rem;
+}
+.creator-info p span:nth-child(1){
+  color:var(--Soft-blue);
+}
+.creator-info p span:nth-child(2){
+  color:var(--White);
+}
 .creator-info img{
-  width: 50px;
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid var(--White);
 }
