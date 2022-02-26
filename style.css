@@ -50,6 +50,10 @@ html{
   font-weight: 600;
   margin-bottom: 14px;
 }
+.card-info p:nth-child(1):hover{
+  color: var(--Cyan);
+  cursor: pointer;
+}
 .card-info p:nth-child(2){
   font-size: 1.5rem;
   color: var(--Soft-blue);
@@ -91,6 +95,10 @@ html{
 }
 .creator-info p span:nth-child(2){
   color:var(--White);
+}
+.creator-info p span:nth-child(2):hover{
+  color:var(--Cyan);
+  cursor: pointer;
 }
 .creator-info img{
   width: 35px;
