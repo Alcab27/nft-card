@@ -1,6 +1,7 @@
 :root{
   --Soft-blue: #8bacda;
   --Cyan: #00fff7;
+  --Cyan-transparent: #00fff78a;
   --Very-dark-blue: #0d192b;
   --Very-dark-blue-card: #14253d;
   --Very-dark-blue-line: #2f415b;
@@ -39,6 +40,32 @@ html{
   border-radius: 8px;
   /* border: 1px solid var(--Very-dark-blue-line); */
   margin-bottom: 14px;
+}
+.image figure img:nth-child(1){
+  position: absolute;
+  z-index: 2;
+}
+.image figure div{
+  opacity: 0;
+  z-index: 4;
+  position: relative;
+  width: 250px;
+  background-color: var(--Cyan-transparent);
+  height: 250px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: center;
+  /* left: 590px;
+  top: 183px; */
+}
+.image figure div:hover{
+  opacity: 1;
+}
+.image figure div img{
+  width: 35px;
+  margin-top: 12px;
+  margin-left: 5px;
 }
 .card-info{
   width: 250px;
